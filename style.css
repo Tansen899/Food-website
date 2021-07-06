@@ -1,0 +1,252 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header {
+    background-color: gainsboro;
+    display: flex;
+    height: 65px;
+}
+.header-top{
+    width: 42%;
+}
+.header-top a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 53, 66);
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.header-top li{
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+    padding-left: 80px;
+    margin-left: 50px;
+}
+.header .mid{
+    width: 10%;
+}
+
+.header .mid h4{
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding-right: 2px;
+    box-shadow: 5px 10px 15px goldenrod;
+    background-image: linear-gradient(darkgreen,orange);
+}
+.header-bottom{
+    width: 41%;
+    padding-right: 20px;
+    margin-left: 100px;
+}
+.header-bottom a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 53, 66);
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.header-bottom li{
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+    padding-right: 20px;
+    margin-right: 100px;
+    padding-left: 15px;
+}
+
+.container{
+    display: flex;
+}
+
+.container .container-item{
+    width: 80%;
+}
+
+.container-item h1{
+    margin-left: 100px;
+    margin-top: 100px;
+    font-size: 38px;
+    font-family:monospace;
+}
+
+.container-item h1 span{
+    font-size: 38px;
+    color: rgb(255, 155, 45);
+}
+
+.container-item p{
+    margin-left: 100px;
+    width: 50%;
+    margin-top: 10px;
+    color: black;
+    font-family: 'Courier New', Courier,;
+}
+.container-item img{
+    width: 70%;
+    margin-left: 50px;
+}
+
+.container-item a{
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    padding: 5px;
+}
+
+.container .order-btn {
+    margin-left: 120px;
+    border: 1px solid tomato;
+    border-radius: 40px;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px;
+    margin-top: 100px;
+}
+.container1{
+    display: flex;
+    background-image: url(img/shapes/7.png);
+    background-repeat: no-repeat;
+}
+.top{
+    margin-top: 100px;
+    margin-right: 80px;
+}
+.container-item1 h2{
+    margin-left: 20px;
+    margin-top: 100px;
+}
+.container-item1 p{
+    margin-left: 20px;
+}
+.container-item1 img{
+    width: 40%;
+    margin-left: 130px;
+    margin-top: 50px;
+}
+.container1 .order-btn {
+    margin-left: 120px;
+    border: 1px solid tomato;
+    border-radius: 40px;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px;
+    margin-top: 100px;
+}
+
+.container-item1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.recipies h1{
+    text-align: center;
+}
+.recipies p{
+    text-align: center;
+    margin-right: 80px;
+    margin-left: 80px;
+    padding-bottom: 50px;
+}
+
+.menu-bar{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+    padding: 20px;
+}
+.card {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 40px;
+}
+.card-body{
+    padding: 20px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.card-img img{
+    width: 100%;
+}
+
+.title{
+    text-align: center;
+}
+.title span{
+    font-size: 22px;
+    color: black;
+    font-weight: 700;
+}
+
+.description{
+    text-align: center;
+    color: rgb(9, 9, 10);
+    font-size: 22px;
+}
+.visit{
+    margin-left: 20px;
+    box-shadow: 5px 10px 20px rgba(120, 226, 0, 0.808);
+    margin-right: 30px;
+    display: inline-flex;
+    border-radius: 40px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+.visit h1{
+    margin-right: 80px;
+    margin-left: 100px;
+    margin-bottom: 0;
+    font-size: 30px;
+    font-family: italic;
+    font-weight: 700;
+}
+.visit h5{
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-top: 0;
+    font-size: 20px;
+    font-family: italic;
+    font-weight: 700;
+}
+.visit-item{
+   margin-left: 180px;
+   margin-right: 0px;
+   padding-bottom: 20px;
+   padding-top: 10px;
+}
+ footer{
+     background-color: black;
+     padding-bottom: 10px;
+     padding-top: 20px;
+     margin-top: 50px;
+ }
+.footer-top h2{
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+    padding: 5px;
+    margin: 10px;
+    font-size: 13px;
+}
+.footer-top span{
+    color: yellowgreen;
+    font-size: 36px;
+}
+.footer-bottom{
+    text-align: center;
+    color: white;
+}
+.footer-bottom p{
+    font-size: 19px;
+    margin-top: 0px;
+}
